@@ -9,7 +9,7 @@ The examples are written in Vue 2, but the same principles can be applied to Rea
 ## An example
 Let's say you want to build a graph to show how many apples you have compared to how many oranges. 
 
-![graph](./graph.png)
+![graph](img/graph.png)
 
 *Note: I will not be dealing with how to implement a graph like this, just how to write it in a reusable way from a props perspective*
 
