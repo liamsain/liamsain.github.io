@@ -90,7 +90,7 @@ If you make your circular graph expect this kind of data, it will be much easier
 
 Now the component can use the count prop on each object to work out percentages, and use the colours provided via props, rather than hard-coded values.
 
-Next, the icon in the center. This can be done a few ways. If your application uses an icon library like Font Awesome then it could take a unicode prop:
+Next, the icon in the center. This can be done a few ways. If your application uses an icon library like Font Awesome then it could take a unicode string prop:
 
 ```html
 <CircularGraph :items="items" iconUnicode="f080" />
@@ -141,19 +141,22 @@ computed: {
       {
         label: 'Oranges',
         count: this.orangesCount,
-        colour: 'orange'
+        activeColour: '#ffaa00',
+        backgroundColour: '#ffe8ba'
+
       },
       {
         label: 'Apples',
         count: this.applesCount,
-        colour: 'Green'
+        activeColour: '#03fc35',
+        backgroundColour: '#d1ffda'
       }
     ];
   }
 }
 ```
 
-OrangeApplesComparison has become a simple wrapper component for the CircularGraph component
+OrangeApplesComparison has become a simple wrapper for the CircularGraph component
 
 
 ## Difficulties when writing reusable components
@@ -166,7 +169,8 @@ Writing reusable components sometimes means greater complexity in terms of the s
 
 ## When to write reusable components
 It's often a matter of taste, judgement and practicality. Some things naturally lend themselves better to being written in a reusable way. 
-Sometimes it is better to wait til you've implemented the same layout or functionality a few times before trying create a reusable component
+Sometimes it is better to wait til you've implemented the same layout or functionality a few times before trying create a reusable component.
+
 Some rules of thumb as to when you might want to write a component in a reusable way:
 - When it seems likely that you will need to reuse the same style or functionality elsewhere in the app
 - When writing complex functionality that will be more understandable, maintainable and testable if broken down into small generic components
@@ -184,7 +188,7 @@ Some rules of thumb as to when you might want to write a component in a reusable
 ## Risks
 It is sometimes easy to get carried away and write a reusable component that is used in many places that each expect the component to behave in slightly different ways. 
 
-I've found that flags that change the look (and css class) of elements in the component are OK, but as the if statements rack up it might be best to create new components (which may, in turn, use parent component containing common styles and logic)
+I've found that flags that change the look (and css classes) of elements in the component are OK, but as the 'if' statements start to rack up it might be best to create new, smaller reusable components (which may, in turn, use parent component containing common styles and logic)
 
 One of the benefits of reusable components can also cause trouble. If you update one because one of its consumers requires specific functionality, you have to be careful not to break all other components that may be consuming the reusable component. 
 Try to keep this in mind when deciding whether the write a component in a reusable way, and when choosing which other components are going to consume it
