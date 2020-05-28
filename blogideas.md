@@ -15,3 +15,9 @@
 - single responsibility
 - separation of concerns
 - props and events
+
+
+## vue reusability
+- tips: using js models for complex prop data
+- writing comments with example object for complex prop data
+- another benefit: writing circulargraph reusably encourages you to let users specify more than two items

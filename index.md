@@ -116,7 +116,7 @@ Lastly, in the graph's key labels it mentions 'fruit': '8 fruit'. A good prop na
 </CircularGraph>
 ```
 
-Now when we wish to reuse the graph for different data, you simple write a wrapper component around the circular graph
+Now when we wish to reuse the graph for different data, you can write a wrapper component around the circular graph
 ```html
 <OrangeApplesComparison 
   :orangesCount="8"
