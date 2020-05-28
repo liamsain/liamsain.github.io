@@ -3,6 +3,7 @@
 Designing reusable components is an important part of writing modern web apps. 
 Many unrelated parts of the app may share features and styles. If you write reusable components it can save time when adding and updating features.
 It can also make your app easier to test. 
+
 In this article I want to explain the benefits of writing reusable components and one way of writing them. 
 The examples are written in Vue 2, but the same principles can be applied to React components
 
