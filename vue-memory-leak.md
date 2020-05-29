@@ -31,6 +31,7 @@ One thought was that it might be down to circular references in data that was he
 After some time I tried something that led me to the cause of the leak in seconds. It seems blindingly obvious now and will be the first thing I try when faced again with the same problem in a JavaScript web application:
 
 - Go to the parent node for the page with the problem e.g.
+
 ```html
 <NodeWithMemoryLeak>
   <!-- stuff inside -->
