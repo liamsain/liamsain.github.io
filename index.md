@@ -159,6 +159,12 @@ computed: {
 
 OrangeApplesComparison has become a simple wrapper for the CircularGraph component
 
+## Benefits of reusable components
+- Because I wrote the component's props to be generic it led to additional functionality: the graph can compare more than two things. It would display curves for however many items were given to it via props. It probably doesn't make sense to give it more than four or five in this case, but it's better than being restricted to just two, which is perhaps what designing the component naively would have led to
+- It can make it easier to add functionality to an app
+- It can reduce duplicate component and unit test code
+- Once features are added to a reusable component, all components that consume it get that new feature at the same time
+
 
 ## Difficulties when writing reusable components
 ### Naming things
@@ -181,10 +187,6 @@ Some rules of thumb as to when you might want to write a component in a reusable
 - When the functionality and layout are simple and are not going to be used again
 - When the component is mainly a collection of other reusable components
 
-## Benefits of reusable components
-- It can make it easier to add functionality to an app
-- It can reduce duplicate component and unit test code
-- Once features are added to a reusable component, all components that consume it get that new feature at the same time
 
 ## Risks
 It is sometimes easy to get carried away and write a reusable component that is used in many places that each expect the component to behave in slightly different ways. 
@@ -192,4 +194,6 @@ It is sometimes easy to get carried away and write a reusable component that is 
 I've found that flags that change the look (and css classes) of elements in the component are OK, but as the 'if' statements start to rack up it might be best to create new, smaller reusable components (which may, in turn, use parent component containing common styles and logic)
 
 One of the benefits of reusable components can also cause trouble. If you update one because one of its consumers requires specific functionality, you have to be careful not to break all other components that may be consuming the reusable component. 
-Try to keep this in mind when deciding whether the write a component in a reusable way, and when choosing which other components are going to consume it
+Try to keep this in mind when deciding whether to write a component in a reusable way, and when choosing which other components are going to consume it
+
+[test](/vue-memory-leak)
