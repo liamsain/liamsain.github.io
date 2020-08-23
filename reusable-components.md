@@ -196,4 +196,3 @@ I've found that flags that change the look (and css classes) of elements in the 
 One of the benefits of reusable components can also cause trouble. If you update one because one of its consumers requires specific functionality, you have to be careful not to break all other components that may be consuming the reusable component. 
 Try to keep this in mind when deciding whether to write a component in a reusable way, and when choosing which other components are going to consume it
 
-[test](/vue-memory-leak)
