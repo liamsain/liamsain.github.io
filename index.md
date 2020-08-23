@@ -9,7 +9,7 @@
 
 # Games/ animations
 - [Lifts](https://liamsain.github.io/lift-system)
-- [Switcher](https://liamsain.github.io/switcher) currently broken
+- [Switcher](https://liamsain.github.io/switcher)
 
 # Chess
 - [My tournament chess games](https://liamsain.github.io/my-chess-games)
