@@ -1,5 +1,5 @@
 # Apps
-### [Typist](https://typist-lvw6ettoy.vercel.app/)
+### [Typist](https://typist-vert.vercel.app/)
 Tiny app about seeing how fast you can type. Made it mostly to try out Svelte
 ### [Notetaker](https://liamsain.github.io/notetaker)
 CRUD notetaking app written in vanilla JS
