@@ -1,10 +1,16 @@
 # Apps
+### [QuizGazer](https://quiz-gazer.vercel.app)
+General knowledge app where you answer questions just by looking at the answer. Written with Svelte and Webgazer js. Requires webcam
+
 ### [Typist](https://typist-vert.vercel.app/)
 Tiny app about seeing how fast you can type. Made it mostly to try out Svelte
+
 ### [Notetaker](https://liamsain.github.io/notetaker)
 CRUD notetaking app written in vanilla JS
+
 ### [Test case tracker](https://liamsain.github.io/test-case-tracker/)
 Written for testers at one of my old workplaces. Tool to help them write and execute test cases. Import/export JSON and XLSX functionality. Written in React
+
 
 # Games/ animations
 ### [Lifts](https://liamsain.github.io/lift-system)
