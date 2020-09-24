@@ -1,4 +1,6 @@
 # Apps
+### [Flash-cards](https://flash-cards-six.vercel.app)
+Flash card app written in Svelte
 ### [QuizGazer](https://quiz-gazer.vercel.app)
 General knowledge app where you answer questions just by looking at the answer. Written with Svelte and Webgazer js. Requires webcam
 
