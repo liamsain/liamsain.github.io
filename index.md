@@ -4,7 +4,7 @@ Flash card app written in Svelte
 ### [QuizGazer](https://quiz-gazer.vercel.app)
 General knowledge app where you answer questions just by looking at the answer. Written with Svelte and Webgazer js. Requires webcam
 
-### [Typist](https://typist-vert.vercel.app/)
+### [Typist](https://typist.liamsain.vercel.app/)
 Tiny app about seeing how fast you can type. Made it mostly to try out Svelte
 
 ### [Notetaker](https://liamsain.github.io/notetaker)
