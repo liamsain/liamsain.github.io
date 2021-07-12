@@ -13,6 +13,11 @@ CRUD notetaking app written in vanilla JS
 ### [Test case tracker](https://liamsain.github.io/test-case-tracker/)
 Written for testers at one of my old workplaces. Tool to help them write and execute test cases. Import/export JSON and XLSX functionality. Written in React
 
+### [Browser](https://github.com/liamsain/browser)
+Using Raylib to create a browser in C#. Displays a few of the main html elements (headers and paragraphs), allows user to scroll up and down, and type in the urls they want
+
+### [Game of life](https://github.com/liamsain/game-of-life)
+Again using Raylib in C#
 
 # Games/ animations
 ### [Lifts](https://liamsain.github.io/lift-system)
