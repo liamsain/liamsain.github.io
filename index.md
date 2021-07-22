@@ -8,6 +8,9 @@ Again using Raylib in C#
 ### [QuizGazer](https://quiz-gazer.vercel.app)
 General knowledge app where you answer questions just by looking at the answer. Written using Svelte and Webgazer js. Requires webcam
 
+### [Chess Voice](https://liamsain.github.io/voice-chess/)
+Use your voice to move chess pieces. Experiment with Chrome's Web Speech API
+
 ### [Typist](https://typist.liamsain.vercel.app/)
 Tiny app about seeing how fast you can type. Made it mostly to try out Svelte
 ### [Calculator](https://pensive-swanson-b9238f.netlify.app/)
