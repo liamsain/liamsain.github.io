@@ -6,12 +6,12 @@ Using Raylib to create the beginnings of a browser in C#. Displays a few of the 
 Again using Raylib in C#
 
 ### [QuizGazer](https://quiz-gazer.vercel.app)
-General knowledge app where you answer questions just by looking at the answer. Written with Svelte and Webgazer js. Requires webcam
+General knowledge app where you answer questions just by looking at the answer. Written using Svelte and Webgazer js. Requires webcam
 
 ### [Typist](https://typist.liamsain.vercel.app/)
 Tiny app about seeing how fast you can type. Made it mostly to try out Svelte
 ### [Calculator](https://pensive-swanson-b9238f.netlify.app/)
-A bare bones calculator app written in Vue 2 for a technical test
+A bare bones calculator app written in Vue 2 that a company asked  me to write for a technical test
 ### [Test case tracker](https://liamsain.github.io/test-case-tracker/)
 Written for testers at one of my old workplaces. Tool to help them write and execute test cases. Import/export JSON and XLSX functionality. Written in React
 
