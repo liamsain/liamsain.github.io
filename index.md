@@ -1,23 +1,27 @@
 # Apps
-### [Flash-cards](https://flash-cards-six.vercel.app)
-Flash card app written in Svelte
+### [Browser](https://github.com/liamsain/browser)
+Using Raylib to create the beginnings of a browser in C#. Displays a few of the main html elements (headers and paragraphs), allows user to scroll up and down, and type in the urls they want
+
+### [Game of life](https://github.com/liamsain/game-of-life)
+Again using Raylib in C#
+
 ### [QuizGazer](https://quiz-gazer.vercel.app)
 General knowledge app where you answer questions just by looking at the answer. Written with Svelte and Webgazer js. Requires webcam
 
 ### [Typist](https://typist.liamsain.vercel.app/)
 Tiny app about seeing how fast you can type. Made it mostly to try out Svelte
-
-### [Notetaker](https://liamsain.github.io/notetaker)
-CRUD notetaking app written in vanilla JS
-
+### [Calculator](https://pensive-swanson-b9238f.netlify.app/)
+A bare bones calculator app written in Vue 2 for a technical test
 ### [Test case tracker](https://liamsain.github.io/test-case-tracker/)
 Written for testers at one of my old workplaces. Tool to help them write and execute test cases. Import/export JSON and XLSX functionality. Written in React
 
-### [Browser](https://github.com/liamsain/browser)
-Using Raylib to create a browser in C#. Displays a few of the main html elements (headers and paragraphs), allows user to scroll up and down, and type in the urls they want
 
-### [Game of life](https://github.com/liamsain/game-of-life)
-Again using Raylib in C#
+
+### [Flash-cards](https://flash-cards-six.vercel.app)
+Bare bones flash card app written in Svelte
+### [Notetaker](https://liamsain.github.io/notetaker)
+Bare bones CRUD notetaking app written in vanilla JS
+
 
 # Games/ animations
 ### [Lifts](https://liamsain.github.io/lift-system)
@@ -33,5 +37,5 @@ I noticed some colleagues were having trouble with writing reusable components s
 A write up of a memory leak bug I fixed
 
 # Chess
-### [My tournament chess games](https://liamsain.github.io/my-chess-games)
+### [My league chess games](https://liamsain.github.io/my-chess-games)
 Started playing chess recently. Joined the local chess club. I am not good
